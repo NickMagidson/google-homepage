@@ -1,53 +1,36 @@
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 250px;
-    width: 50%;
-}
 
-.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 28%;
-}
+/* General page fit */
 
-.search-bar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    width: 50%;
-}
-
-.input-form {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.flex {
+    display: flex;
+    height: 100%;
     width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+
+/* Main */
+
+.center {
+    margin: auto;
 }
 
-.form-box {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.google {
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
 
-/* .center-buttons {
+input {
+    height: 40px;
+    width: 500px;
+    padding: 0px, 40px;
+    border-width: 1pt;
+    border-style: solid;
+    border-color: rgba(201, 202, 201, 0.973);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
 
-} */
-
-.search-button {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    width: 120px;
-}  
-
-.second {
-    display: inline;
-    margin-left: 200px;
-    margin-right: auto;
+form {
+    margin: auto;
 }
