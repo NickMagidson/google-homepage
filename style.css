@@ -67,8 +67,33 @@ form {
 
 li {
     display: inline;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 5px;
+    vertical-align: middle;
 }
 
+li a {
+    text-decoration: none;
+}
+
+li a {
+    color: rgb(68, 68, 70);
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.searchbutton {
+    background-color: #f1ededec;
+    width: 130px;
+    height: 35px;
+    color: rgb(106, 106, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    border-radius: 4px;
+    border: none;
+    margin: none;
+}
 
 
 
