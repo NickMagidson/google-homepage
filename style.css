@@ -2,7 +2,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 250px;
     width: 50%;
 }
 
@@ -10,13 +10,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 28%;
 }
 
 .search-bar {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
     width: 50%;
 }
 
@@ -25,4 +26,28 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+.form-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .center-buttons {
+
+} */
+
+.search-button {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 120px;
+}  
+
+.second {
+    display: inline;
+    margin-left: 200px;
+    margin-right: auto;
 }
